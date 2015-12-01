@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "DetailViewController.h"
 #import "MasterViewController.h"
+@import GoogleMaps;
 
 @interface AppDelegate () <UISplitViewControllerDelegate>
 
@@ -24,9 +25,25 @@
     navigationController.topViewController.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem;
     splitViewController.delegate = self;
 
-    UINavigationController *masterNavigationController = splitViewController.viewControllers[0];
-    MasterViewController *controller = (MasterViewController *)masterNavigationController.topViewController;
-    controller.managedObjectContext = self.managedObjectContext;
+//    UINavigationController *masterNavigationController = splitViewController.viewControllers[0];
+//    MasterViewController *controller = (MasterViewController *)masterNavigationController.topViewController;
+//    controller.managedObjectContext = self.managedObjectContext;
+    
+    
+    /////Initialize all the user defaults for filters
+    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+    if(![userDefaults valueForKey:@"distance"]){
+        [userDefaults setValue:@"3" forKey:@"distance"];
+        [userDefaults setValue:@"10" forKey:@"numberOfResults"];
+        [userDefaults setValue:@"Canada" forKey:@"country"];
+        [userDefaults setValue:@"0" forKey:@"sort"];
+        [userDefaults setValue:@"Toronto, Ontario" forKey:@"near"];
+        [userDefaults setValue:@"ethiopean" forKey:@"searchTerm"];
+        [userDefaults synchronize];
+    }
+    
+    [GMSServices provideAPIKey:@"AIzaSyA8ts6Ebsxj8NIG0lSPbjMaXJU1rKjL1PE"];
+    
     return YES;
 }
 

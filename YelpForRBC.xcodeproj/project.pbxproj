@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16AEBAB2E142D00AC22980E4 /* libPods-YelpForRBC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 708429AB7A60EDDB3D047B22 /* libPods-YelpForRBC.a */; };
+		988AEC361C0BFA9B00867A3C /* SliderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 988AEC351C0BFA9B00867A3C /* SliderTableViewCell.m */; };
+		988AEC3A1C0C165200867A3C /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 988AEC391C0C165200867A3C /* MapViewController.m */; };
+		988AEC3E1C0C1DE800867A3C /* WebServiceLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 988AEC3D1C0C1DE800867A3C /* WebServiceLayer.m */; };
+		988AEC461C0D05A300867A3C /* call.png in Resources */ = {isa = PBXBuildFile; fileRef = 988AEC451C0D05A300867A3C /* call.png */; };
+		988AEC481C0D0BD000867A3C /* CustomOverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 988AEC471C0D0BD000867A3C /* CustomOverlayView.xib */; };
+		988AEC4C1C0D0C6A00867A3C /* CustomOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 988AEC4B1C0D0C6A00867A3C /* CustomOverlayView.m */; };
+		98C391DB1C0A7BE80098BE48 /* Business.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C391D21C0A7BE80098BE48 /* Business.m */; };
+		98C391DC1C0A7BE80098BE48 /* NSURLRequest+OAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C391D41C0A7BE80098BE48 /* NSURLRequest+OAuth.m */; };
+		98C391DD1C0A7BE80098BE48 /* HomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C391D81C0A7BE80098BE48 /* HomeTableViewCell.m */; };
+		98C391E11C0A7F760098BE48 /* placeholder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98C391E01C0A7F760098BE48 /* placeholder.jpg */; };
+		98C391EC1C0BE3E50098BE48 /* FilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C391EB1C0BE3E50098BE48 /* FilterViewController.m */; };
+		98C391F01C0BF4A30098BE48 /* SortTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C391EF1C0BF4A30098BE48 /* SortTableViewCell.m */; };
 		98E9E4DA1C0A138700779AF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E9E4D91C0A138700779AF0 /* main.m */; };
 		98E9E4DD1C0A138700779AF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E9E4DC1C0A138700779AF0 /* AppDelegate.m */; };
 		98E9E4E01C0A138700779AF0 /* YelpForRBC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 98E9E4DE1C0A138700779AF0 /* YelpForRBC.xcdatamodeld */; };
@@ -37,13 +50,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		708429AB7A60EDDB3D047B22 /* libPods-YelpForRBC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YelpForRBC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D7B7AF0159E04566ED4F8C6 /* Pods-YelpForRBC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YelpForRBC.release.xcconfig"; path = "Pods/Target Support Files/Pods-YelpForRBC/Pods-YelpForRBC.release.xcconfig"; sourceTree = "<group>"; };
+		988AEC341C0BFA9B00867A3C /* SliderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderTableViewCell.h; sourceTree = "<group>"; };
+		988AEC351C0BFA9B00867A3C /* SliderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderTableViewCell.m; sourceTree = "<group>"; };
+		988AEC381C0C165200867A3C /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = MapViewController/MapViewController.h; sourceTree = "<group>"; };
+		988AEC391C0C165200867A3C /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = MapViewController/MapViewController.m; sourceTree = "<group>"; };
+		988AEC3C1C0C1DE800867A3C /* WebServiceLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebServiceLayer.h; path = WebServiceLayer/WebServiceLayer.h; sourceTree = "<group>"; };
+		988AEC3D1C0C1DE800867A3C /* WebServiceLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebServiceLayer.m; path = WebServiceLayer/WebServiceLayer.m; sourceTree = "<group>"; };
+		988AEC451C0D05A300867A3C /* call.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call.png; sourceTree = "<group>"; };
+		988AEC471C0D0BD000867A3C /* CustomOverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomOverlayView.xib; path = Assets.xcassets/CustomOverlayView.xib; sourceTree = "<group>"; };
+		988AEC4A1C0D0C6A00867A3C /* CustomOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomOverlayView.h; path = MapViewController/CustomOverlayView/CustomOverlayView.h; sourceTree = "<group>"; };
+		988AEC4B1C0D0C6A00867A3C /* CustomOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomOverlayView.m; path = MapViewController/CustomOverlayView/CustomOverlayView.m; sourceTree = "<group>"; };
+		98C391D11C0A7BE80098BE48 /* Business.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Business.h; sourceTree = "<group>"; };
+		98C391D21C0A7BE80098BE48 /* Business.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Business.m; sourceTree = "<group>"; };
+		98C391D31C0A7BE80098BE48 /* NSURLRequest+OAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+OAuth.h"; sourceTree = "<group>"; };
+		98C391D41C0A7BE80098BE48 /* NSURLRequest+OAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+OAuth.m"; sourceTree = "<group>"; };
+		98C391D71C0A7BE80098BE48 /* HomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewCell.h; sourceTree = "<group>"; };
+		98C391D81C0A7BE80098BE48 /* HomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewCell.m; sourceTree = "<group>"; };
+		98C391E01C0A7F760098BE48 /* placeholder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placeholder.jpg; sourceTree = "<group>"; };
+		98C391EA1C0BE3E50098BE48 /* FilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterViewController.h; sourceTree = "<group>"; };
+		98C391EB1C0BE3E50098BE48 /* FilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterViewController.m; sourceTree = "<group>"; };
+		98C391EE1C0BF4A30098BE48 /* SortTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SortTableViewCell.h; path = YelpForRBC/FilterViewController/FilterViewCells/SortTableViewCell.h; sourceTree = SOURCE_ROOT; };
+		98C391EF1C0BF4A30098BE48 /* SortTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SortTableViewCell.m; path = YelpForRBC/FilterViewController/FilterViewCells/SortTableViewCell.m; sourceTree = SOURCE_ROOT; };
 		98E9E4D51C0A138700779AF0 /* YelpForRBC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YelpForRBC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98E9E4D91C0A138700779AF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		98E9E4DB1C0A138700779AF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		98E9E4DC1C0A138700779AF0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		98E9E4DF1C0A138700779AF0 /* YelpForRBC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YelpForRBC.xcdatamodel; sourceTree = "<group>"; };
-		98E9E4E11C0A138700779AF0 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		98E9E4E21C0A138700779AF0 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		98E9E4E11C0A138700779AF0 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MasterViewController.h; path = ../MasterViewController.h; sourceTree = "<group>"; };
+		98E9E4E21C0A138700779AF0 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MasterViewController.m; path = ../MasterViewController.m; sourceTree = "<group>"; };
 		98E9E4E41C0A138700779AF0 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		98E9E4E51C0A138700779AF0 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		98E9E4E81C0A138700779AF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -56,6 +92,7 @@
 		98E9E4FF1C0A138700779AF0 /* YelpForRBCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YelpForRBCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98E9E5031C0A138700779AF0 /* YelpForRBCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YelpForRBCUITests.m; sourceTree = "<group>"; };
 		98E9E5051C0A138700779AF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE6A6883F30C4F4D1BDAB992 /* Pods-YelpForRBC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YelpForRBC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YelpForRBC/Pods-YelpForRBC.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16AEBAB2E142D00AC22980E4 /* libPods-YelpForRBC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +121,177 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08E465374527E3C7C34E6F99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				708429AB7A60EDDB3D047B22 /* libPods-YelpForRBC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		330ED8EEE116493F4973BEDA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE6A6883F30C4F4D1BDAB992 /* Pods-YelpForRBC.debug.xcconfig */,
+				7D7B7AF0159E04566ED4F8C6 /* Pods-YelpForRBC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		988AEC371C0C161400867A3C /* MapViewController */ = {
+			isa = PBXGroup;
+			children = (
+				988AEC491C0D0C2F00867A3C /* CustomOverlay */,
+				988AEC381C0C165200867A3C /* MapViewController.h */,
+				988AEC391C0C165200867A3C /* MapViewController.m */,
+			);
+			name = MapViewController;
+			sourceTree = "<group>";
+		};
+		988AEC3B1C0C1DB100867A3C /* WebServiceLayer */ = {
+			isa = PBXGroup;
+			children = (
+				988AEC3C1C0C1DE800867A3C /* WebServiceLayer.h */,
+				988AEC3D1C0C1DE800867A3C /* WebServiceLayer.m */,
+			);
+			name = WebServiceLayer;
+			sourceTree = "<group>";
+		};
+		988AEC3F1C0C9A8B00867A3C /* DetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				98E9E4E41C0A138700779AF0 /* DetailViewController.h */,
+				98E9E4E51C0A138700779AF0 /* DetailViewController.m */,
+			);
+			name = DetailViewController;
+			sourceTree = "<group>";
+		};
+		988AEC401C0C9AA900867A3C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				98E9E4E71C0A138700779AF0 /* Main.storyboard */,
+				98E9E4EC1C0A138700779AF0 /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		988AEC411C0C9ABA00867A3C /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				98E9E4DB1C0A138700779AF0 /* AppDelegate.h */,
+				98E9E4DC1C0A138700779AF0 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		988AEC421C0C9ACB00867A3C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				988AEC3F1C0C9A8B00867A3C /* DetailViewController */,
+				988AEC371C0C161400867A3C /* MapViewController */,
+				98C391E61C0BDDEC0098BE48 /* FilterViewController */,
+				98C391D51C0A7BE80098BE48 /* HomeViewController */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		988AEC431C0C9AEF00867A3C /* DataAccessLayer */ = {
+			isa = PBXGroup;
+			children = (
+				98C391D01C0A7BE80098BE48 /* Models */,
+				98E9E4DE1C0A138700779AF0 /* YelpForRBC.xcdatamodeld */,
+			);
+			name = DataAccessLayer;
+			sourceTree = "<group>";
+		};
+		988AEC441C0C9B1600867A3C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				98C391DF1C0A7F760098BE48 /* Images */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		988AEC491C0D0C2F00867A3C /* CustomOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				988AEC471C0D0BD000867A3C /* CustomOverlayView.xib */,
+				988AEC4A1C0D0C6A00867A3C /* CustomOverlayView.h */,
+				988AEC4B1C0D0C6A00867A3C /* CustomOverlayView.m */,
+			);
+			name = CustomOverlay;
+			sourceTree = "<group>";
+		};
+		98C391CF1C0A7BE80098BE48 /* BusinessLayer */ = {
+			isa = PBXGroup;
+			children = (
+				988AEC3B1C0C1DB100867A3C /* WebServiceLayer */,
+				98C391D31C0A7BE80098BE48 /* NSURLRequest+OAuth.h */,
+				98C391D41C0A7BE80098BE48 /* NSURLRequest+OAuth.m */,
+			);
+			path = BusinessLayer;
+			sourceTree = "<group>";
+		};
+		98C391D01C0A7BE80098BE48 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				98C391D11C0A7BE80098BE48 /* Business.h */,
+				98C391D21C0A7BE80098BE48 /* Business.m */,
+			);
+			name = Models;
+			path = BusinessLayer/Models;
+			sourceTree = "<group>";
+		};
+		98C391D51C0A7BE80098BE48 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				98E9E4E11C0A138700779AF0 /* MasterViewController.h */,
+				98E9E4E21C0A138700779AF0 /* MasterViewController.m */,
+				98C391D61C0A7BE80098BE48 /* HomeTableViewCell */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		98C391D61C0A7BE80098BE48 /* HomeTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				98C391D71C0A7BE80098BE48 /* HomeTableViewCell.h */,
+				98C391D81C0A7BE80098BE48 /* HomeTableViewCell.m */,
+			);
+			path = HomeTableViewCell;
+			sourceTree = "<group>";
+		};
+		98C391DF1C0A7F760098BE48 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				988AEC451C0D05A300867A3C /* call.png */,
+				98C391E01C0A7F760098BE48 /* placeholder.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		98C391E61C0BDDEC0098BE48 /* FilterViewController */ = {
+			isa = PBXGroup;
+			children = (
+				98C391ED1C0BF4690098BE48 /* FilterViewCells */,
+				98C391EA1C0BE3E50098BE48 /* FilterViewController.h */,
+				98C391EB1C0BE3E50098BE48 /* FilterViewController.m */,
+			);
+			name = FilterViewController;
+			path = Images;
+			sourceTree = "<group>";
+		};
+		98C391ED1C0BF4690098BE48 /* FilterViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				988AEC341C0BFA9B00867A3C /* SliderTableViewCell.h */,
+				988AEC351C0BFA9B00867A3C /* SliderTableViewCell.m */,
+				98C391EE1C0BF4A30098BE48 /* SortTableViewCell.h */,
+				98C391EF1C0BF4A30098BE48 /* SortTableViewCell.m */,
+			);
+			name = FilterViewCells;
+			sourceTree = "<group>";
+		};
 		98E9E4CC1C0A138700779AF0 = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +299,8 @@
 				98E9E4F71C0A138700779AF0 /* YelpForRBCTests */,
 				98E9E5021C0A138700779AF0 /* YelpForRBCUITests */,
 				98E9E4D61C0A138700779AF0 /* Products */,
+				330ED8EEE116493F4973BEDA /* Pods */,
+				08E465374527E3C7C34E6F99 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,17 +317,12 @@
 		98E9E4D71C0A138700779AF0 /* YelpForRBC */ = {
 			isa = PBXGroup;
 			children = (
-				98E9E4DB1C0A138700779AF0 /* AppDelegate.h */,
-				98E9E4DC1C0A138700779AF0 /* AppDelegate.m */,
-				98E9E4E11C0A138700779AF0 /* MasterViewController.h */,
-				98E9E4E21C0A138700779AF0 /* MasterViewController.m */,
-				98E9E4E41C0A138700779AF0 /* DetailViewController.h */,
-				98E9E4E51C0A138700779AF0 /* DetailViewController.m */,
-				98E9E4E71C0A138700779AF0 /* Main.storyboard */,
-				98E9E4EA1C0A138700779AF0 /* Assets.xcassets */,
-				98E9E4EC1C0A138700779AF0 /* LaunchScreen.storyboard */,
-				98E9E4EF1C0A138700779AF0 /* Info.plist */,
-				98E9E4DE1C0A138700779AF0 /* YelpForRBC.xcdatamodeld */,
+				988AEC431C0C9AEF00867A3C /* DataAccessLayer */,
+				98C391CF1C0A7BE80098BE48 /* BusinessLayer */,
+				988AEC421C0C9ACB00867A3C /* Controllers */,
+				988AEC411C0C9ABA00867A3C /* AppDelegate */,
+				988AEC401C0C9AA900867A3C /* Views */,
+				988AEC441C0C9B1600867A3C /* Assets */,
 				98E9E4D81C0A138700779AF0 /* Supporting Files */,
 			);
 			path = YelpForRBC;
@@ -125,6 +331,8 @@
 		98E9E4D81C0A138700779AF0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				98E9E4EA1C0A138700779AF0 /* Assets.xcassets */,
+				98E9E4EF1C0A138700779AF0 /* Info.plist */,
 				98E9E4D91C0A138700779AF0 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -155,9 +363,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 98E9E5081C0A138700779AF0 /* Build configuration list for PBXNativeTarget "YelpForRBC" */;
 			buildPhases = (
+				5B42E12FDCF50A6BF1C7E3A8 /* Check Pods Manifest.lock */,
 				98E9E4D11C0A138700779AF0 /* Sources */,
 				98E9E4D21C0A138700779AF0 /* Frameworks */,
 				98E9E4D31C0A138700779AF0 /* Resources */,
+				17BAB841D80C94FE8BAB0661 /* Embed Pods Frameworks */,
+				48BB92600E10C2093B93D606 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -215,6 +426,7 @@
 				TargetAttributes = {
 					98E9E4D41C0A138700779AF0 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = FW7F9SP7S7;
 					};
 					98E9E4F31C0A138700779AF0 = {
 						CreatedOnToolsVersion = 7.1;
@@ -252,6 +464,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				98E9E4EE1C0A138700779AF0 /* LaunchScreen.storyboard in Resources */,
+				988AEC461C0D05A300867A3C /* call.png in Resources */,
+				988AEC481C0D0BD000867A3C /* CustomOverlayView.xib in Resources */,
+				98C391E11C0A7F760098BE48 /* placeholder.jpg in Resources */,
 				98E9E4EB1C0A138700779AF0 /* Assets.xcassets in Resources */,
 				98E9E4E91C0A138700779AF0 /* Main.storyboard in Resources */,
 			);
@@ -273,16 +488,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17BAB841D80C94FE8BAB0661 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YelpForRBC/Pods-YelpForRBC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48BB92600E10C2093B93D606 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YelpForRBC/Pods-YelpForRBC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B42E12FDCF50A6BF1C7E3A8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		98E9E4D11C0A138700779AF0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				98E9E4E61C0A138700779AF0 /* DetailViewController.m in Sources */,
+				98C391F01C0BF4A30098BE48 /* SortTableViewCell.m in Sources */,
+				988AEC3E1C0C1DE800867A3C /* WebServiceLayer.m in Sources */,
+				988AEC361C0BFA9B00867A3C /* SliderTableViewCell.m in Sources */,
+				988AEC4C1C0D0C6A00867A3C /* CustomOverlayView.m in Sources */,
 				98E9E4E31C0A138700779AF0 /* MasterViewController.m in Sources */,
+				98C391EC1C0BE3E50098BE48 /* FilterViewController.m in Sources */,
+				98C391DD1C0A7BE80098BE48 /* HomeTableViewCell.m in Sources */,
 				98E9E4DD1C0A138700779AF0 /* AppDelegate.m in Sources */,
+				988AEC3A1C0C165200867A3C /* MapViewController.m in Sources */,
+				98C391DB1C0A7BE80098BE48 /* Business.m in Sources */,
 				98E9E4E01C0A138700779AF0 /* YelpForRBC.xcdatamodeld in Sources */,
 				98E9E4DA1C0A138700779AF0 /* main.m in Sources */,
+				98C391DC1C0A7BE80098BE48 /* NSURLRequest+OAuth.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,23 +693,33 @@
 		};
 		98E9E5091C0A138700779AF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE6A6883F30C4F4D1BDAB992 /* Pods-YelpForRBC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = YelpForRBC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Harshdeep.YelpForRBC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		98E9E50A1C0A138700779AF0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D7B7AF0159E04566ED4F8C6 /* Pods-YelpForRBC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = YelpForRBC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Harshdeep.YelpForRBC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -508,6 +790,7 @@
 				98E9E50A1C0A138700779AF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		98E9E50B1C0A138700779AF0 /* Build configuration list for PBXNativeTarget "YelpForRBCTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +799,7 @@
 				98E9E50D1C0A138700779AF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		98E9E50E1C0A138700779AF0 /* Build configuration list for PBXNativeTarget "YelpForRBCUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +808,7 @@
 				98E9E5101C0A138700779AF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

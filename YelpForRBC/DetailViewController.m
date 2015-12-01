@@ -35,12 +35,24 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    [self configureView];
+
+}
+
+-(void)viewDidAppear:(BOOL)animated{
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
+-(void) resetMapPositionWithCurrentLatitude:(NSString *)latitude andLongitude:(NSString *)longitude{
+
+    
+}
+
+
 
 @end

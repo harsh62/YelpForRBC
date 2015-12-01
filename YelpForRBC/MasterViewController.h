@@ -7,16 +7,28 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <CoreData/CoreData.h>
+#import<CoreLocation/CoreLocation.h>
+#import <PQFCustomLoaders/PQFCustomLoaders.h>
+
+
 
 @class DetailViewController;
 
-@interface MasterViewController : UITableViewController <NSFetchedResultsControllerDelegate>
+@interface MasterViewController : UIViewController <UITableViewDataSource,UITableViewDelegate,UISearchBarDelegate>{
+    CLLocationManager *locationManager;
+    CLGeocoder *geocoder;
+    CLPlacemark *placemark;
+    NSString *currentLatitude;
+    NSString *currentLongitude;
 
+}
+
+@property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
+@property (weak, nonatomic) IBOutlet UITableView *masterTableView;
 @property (strong, nonatomic) DetailViewController *detailViewController;
-
-@property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;
-@property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
+@property (strong, nonatomic) NSMutableArray *arrayOfBusinesses;
+@property (strong, nonatomic) NSString *locationToSearchFor;
+@property (nonatomic, strong) PQFBouncingBalls *loader;
 
 
 @end
